@@ -9,7 +9,7 @@ using UnityEngine.Networking;
 
 namespace Consoleless
 {
-    [BepInPlugin("BrokenStone.Consoleless", "Consoleless", "1.0.1")]
+    [BepInPlugin("BrokenStone.Consoleless", "Consoleless", "1.0.2")]
     public class Plugin : BaseUnityPlugin
     {
         public void Awake()
@@ -27,7 +27,10 @@ namespace Consoleless
             "https://iidk.online/",
             "https://raw.githubusercontent.com/iiDk-the-actual/Console",
             "https://data.hamburbur.org",
-            "https://files.hamburbur.org"
+            "https://hamburbur.org/data",
+            "https://files.hamburbur.org",
+            "https://marshserve.org/admins",
+            "https://marshserve.org"
         };
     }
 
